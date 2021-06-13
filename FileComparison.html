@@ -27,11 +27,11 @@
             <form method="post" enctype="multipart/form-data" action="">
                 <div id="cont-src">
                   <span id="filename-src">Select Source file</span>
-                  <label for="file-upload-src">Browse<input type="file" id="file-upload-src"></label>
+                  <label for="file-upload-src">Browse<input type="file" id="file-upload-src" aria-required="true"></label>
                </div>
                <div id="cont-target">
                   <span id="filename-target">Select Target file</span>
-                  <label for="file-upload-target">Browse<input type="file" id="file-upload-target"></label>
+                  <label for="file-upload-target">Browse<input type="file" id="file-upload-target" required></label>
                </div> 
                <div>             
                   <button name="compare" type="submit" id="compare-btn">Proceed</button>    
@@ -39,21 +39,6 @@
             </form>
        </div>
    </div>
-   <!-- <div class="center-screen">
-      <form method="post" enctype="multipart/form-data" action="">
-          <div id="cont-src">
-            <span id="filename-src">Select Source file</span>
-            <label for="file-upload-src">Browse<input type="file" id="file-upload-src"></label>
-         </div>
-         <div id="cont-target">
-            <span id="filename-target">Select Target file</span>
-            <label for="file-upload-target">Browse<input type="file" id="file-upload-target"></label>
-         </div>
-           
-            <button name="compare" type="submit" id="compare-btn">Proceed</button>    
-      </form>
-   </div> -->
-
 </body>
 <script type="text/javascript" src="JS/fileupload.js"></script>
 </html>
